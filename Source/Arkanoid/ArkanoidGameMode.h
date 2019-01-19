@@ -36,11 +36,11 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Bricks", meta = (ClampMin = "1", UIMin = "1"))
 		int32 BrickColumnsCount = 2;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Bricks")
-		FColor CommonBrickColor;
+		FLinearColor CommonBrickColor;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Bricks")
-		FColor RareBrickColor;
+		FLinearColor RareBrickColor;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Bricks")
-		FColor LegendaryBrickColor;
+		FLinearColor LegendaryBrickColor;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Player", meta = (ClampMin = "1", UIMin = "1"))
 		int32 HitPoints = 1;
@@ -48,9 +48,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Projectile", meta = (ClampMin = "1.0", UIMin = "1.0"))
 		float ProjectileStartSpeed = 1.0;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Projectile")
-		FColor ProjectileDefaultColor;
+		FLinearColor ProjectileDefaultColor;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Projectile")
-		FColor ProjectileBuffedColor;
+		FLinearColor ProjectileBuffedColor;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Settings|Projectile", meta = (ClampMin = "1.0", UIMin = "1.0"))
 		float ProjectileSpeedIncerease = 1.0;
 
